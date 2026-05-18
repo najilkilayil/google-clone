@@ -44,14 +44,14 @@
 
 /* Menu icon on RIGHTSIDE TOPNAVBAR */
 .top-nav-bar-right img {
-    width: 48px;
-    height: 48px;
+    width: 28px;
+    height: 28x;
 }
 
 /* Sign Up button in RIGHTSIDE TOPNAVBAR */
 .sign-up {
     background: green;
-    width: 150px;
+    width: 120px;
     display: flex;
     align-items: center;
     margin-left: 10px;
@@ -61,8 +61,8 @@
 }
 
 .sign-up img {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
 }
 
 .sign-up p {
@@ -75,4 +75,31 @@
 .main-screen {
     background-color: aqua;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;      
+}
+
+.main-screen h1 {
+    background: white;
+    margin-top: -200px;
+    font-size: 100px;
+}
+
+/* Icon color */
+#blue {
+    color: #4285F4;
+}
+
+#red {
+    color: #DB4437;
+}
+
+#yellow {
+    color: #F4B400;
+}
+
+#green {
+    color: #0F9D58;
 }

@@ -74,7 +74,7 @@
 
 .main-screen {
     background-color: aqua;
-    height: 80vh;
+    height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,4 +190,55 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+
+/* Foot NavBar */
+.foot-nav-bar {
+    width: 100%;
+    background-color: indigo;
+    height: 88px;
+}
+
+.foot-nav-bar-a {
+    background-color: goldenrod;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.foot-nav-bar-a p {
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: grey;
+}
+
+.foot-nav-bar-b {
+    background-color: lightgreen;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.foot-nav-bar-b-left {
+    font-size: 18px;
+}
+
+.foot-nav-bar-b-left a {
+    padding-left: 30px;
+}
+
+.foot-nav-bar-b-right {
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+}
+
+.foot-nav-bar-b-right a {
+    padding-right: 30px;
 }

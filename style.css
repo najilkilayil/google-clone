@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Top nav bar */
 .top-nav-bar {
     background: red;
     width: 100%;
@@ -12,6 +13,7 @@
     align-items: center;
 }
 
+/* Top nav bar LEFT SIDE */
 .top-nav-bar-left {
     background: green;
     position: absolute;
@@ -20,6 +22,20 @@
 .top-nav-bar-left a {
     background: blue;
     margin-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Top nav bar RIGHT SIDE */
+.top-nav-bar-right {
+    background: wheat;
+    position: absolute;
+    right: 10px;
+}
+
+.top-nav-bar-right a {
+    background: blue;
+    margin-right: 30px;
     color: white;
     font-size: 18px;
 }

@@ -69,3 +69,10 @@
     font-size: 18px;
     padding: 10px;
 }
+
+/* Main Screen */
+
+.main-screen {
+    background-color: aqua;
+    height: 80vh;
+}

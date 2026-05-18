@@ -169,3 +169,25 @@
 .ai-mode p {
     padding-left: 6px;
 }
+
+/* Two Buttons */
+.btn-main {
+    background-color: darkviolet;
+    margin-top: 40px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn1 {
+    background-color: #0F9D58;
+    width: 120%;
+    font-size: 18px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

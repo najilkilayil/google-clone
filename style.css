@@ -31,6 +31,8 @@
     background: wheat;
     position: absolute;
     right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .top-nav-bar-right a {
@@ -38,4 +40,32 @@
     margin-right: 30px;
     color: white;
     font-size: 18px;
+}
+
+/* Menu icon on RIGHTSIDE TOPNAVBAR */
+.top-nav-bar-right img {
+    width: 48px;
+    height: 48px;
+}
+
+/* Sign Up button in RIGHTSIDE TOPNAVBAR */
+.sign-up {
+    background: green;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.sign-up img {
+    width: 40px;
+    height: 40px;
+}
+
+.sign-up p {
+    font-size: 18px;
+    padding: 10px;
 }

@@ -81,6 +81,7 @@
     flex-direction: column;      
 }
 
+/* Logo text MAIN SCREEN */
 .main-screen h1 {
     background: white;
     margin-top: -200px;
@@ -104,4 +105,67 @@
 
 #green {
     color: #0F9D58;
+}
+
+/* Search Bar MAIN SCREEN */
+.search-bar-box {
+    background-color: brown;
+    width: 810px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.search-bar-img-box {
+    background-color: chocolate;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.search-bar-box img {
+    width: 28px;
+    height: 28px;
+}
+
+/* search bar input MAIN SCREEN */
+.search-bar-box input {
+    background-color: orange;
+    height: 40px;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    width: 550px;
+}
+
+.search-bar-img-box1 {
+    background-color: chocolate;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    margin-left: 2px;
+    border-radius: 30px;
+}
+
+.ai-mode {
+    background-color: darkgray;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding-left: 5px;
+    border-radius: 30px;
+}
+
+.ai-mode p {
+    padding-left: 6px;
 }

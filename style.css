@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Google', sans-serif;
+    text-decoration: none;
+    user-select: none;
 }
 
 /* Top nav bar */
 .top-nav-bar {
-    background: red;
     width: 100%;
     position: relative;
     height: 8vh;
@@ -15,20 +17,17 @@
 
 /* Top nav bar LEFT SIDE */
 .top-nav-bar-left {
-    background: green;
     position: absolute;
 }
 
 .top-nav-bar-left a {
-    background: blue;
     margin-left: 30px;
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
 /* Top nav bar RIGHT SIDE */
 .top-nav-bar-right {
-    background: wheat;
     position: absolute;
     right: 10px;
     display: flex;
@@ -36,21 +35,30 @@
 }
 
 .top-nav-bar-right a {
-    background: blue;
     margin-right: 30px;
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
 /* Menu icon on RIGHTSIDE TOPNAVBAR */
-.top-nav-bar-right img {
+.top-nav-bar-right-img {
+    
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.top-nav-bar-right-img img {
     width: 28px;
     height: 28x;
 }
 
 /* Sign Up button in RIGHTSIDE TOPNAVBAR */
 .sign-up {
-    background: green;
+    background: blue;
     width: 120px;
     display: flex;
     align-items: center;
@@ -68,12 +76,12 @@
 .sign-up p {
     font-size: 18px;
     padding: 10px;
+    color: white;
 }
 
 /* Main Screen */
 
 .main-screen {
-    background-color: aqua;
     height: 78vh;
     display: flex;
     justify-content: center;
@@ -83,7 +91,6 @@
 
 /* Logo text MAIN SCREEN */
 .main-screen h1 {
-    background: white;
     margin-top: -200px;
     font-size: 120px;
     font-family: "Google Sans", sans-serif;
@@ -109,16 +116,15 @@
 
 /* Search Bar MAIN SCREEN */
 .search-bar-box {
-    background-color: brown;
     width: 810px;
     height: 50px;
     display: flex;
     align-items: center;
+    border: 0.2px solid grey;
     border-radius: 30px;
 }
 
 .search-bar-img-box {
-    background-color: chocolate;
     width: 35px;
     display: flex;
     align-items: center;
@@ -135,7 +141,6 @@
 
 /* search bar input MAIN SCREEN */
 .search-bar-box input {
-    background-color: orange;
     height: 40px;
     font-size: 24px;
     outline: none;
@@ -145,7 +150,6 @@
 }
 
 .search-bar-img-box1 {
-    background-color: chocolate;
     width: 35px;
     display: flex;
     align-items: center;
@@ -156,7 +160,7 @@
 }
 
 .ai-mode {
-    background-color: darkgray;
+    background-color: rgb(238, 236, 236);
     width: 100px;
     height: 40px;
     display: flex;
@@ -172,7 +176,6 @@
 
 /* Two Buttons */
 .btn-main {
-    background-color: darkviolet;
     margin-top: 40px;
     width: 600px;
     display: flex;
@@ -182,25 +185,25 @@
 }
 
 .btn1 {
-    background-color: #0F9D58;
+    background-color: #eeeeee;
     width: 120%;
-    font-size: 18px;
+    font-size: 16px;
     height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    color: black;
 }
 
 /* Foot NavBar */
 .foot-nav-bar {
     width: 100%;
-    background-color: indigo;
     height: 88px;
 }
 
 .foot-nav-bar-a {
-    background-color: goldenrod;
+    background-color: #eeeeee;
     height: 40px;
     display: flex;
     align-items: center;
@@ -213,12 +216,12 @@
 
 hr {
     border: none;
-    height: 2px;
-    background: grey;
+    height: 1px;
+    background: rgb(197, 197, 197);
 }
 
 .foot-nav-bar-b {
-    background-color: lightgreen;
+    background-color: #eeeeee;
     height: 45px;
     display: flex;
     align-items: center;
@@ -231,6 +234,7 @@ hr {
 
 .foot-nav-bar-b-left a {
     padding-left: 30px;
+    color: black;
 }
 
 .foot-nav-bar-b-right {
@@ -241,4 +245,22 @@ hr {
 
 .foot-nav-bar-b-right a {
     padding-right: 30px;
+    color: black;
+}
+
+/* HOVERING EFFECT */
+.top-nav-bar-left a:hover, .top-nav-bar-right a:hover, .foot-nav-bar-b-left a:hover, .foot-nav-bar-b-right a:hover {
+    text-decoration: underline;
+}
+
+.top-nav-bar-right-img:hover,.search-bar-img-box:hover, .search-bar-img-box1:hover {
+    background-color: #eeeeee;
+}
+
+.sign-up:hover  {
+    border: 1px solid #eeeeee;
+}
+
+.btn1:hover, .ai-mode:hover {
+    border: 1px solid #858585;
 }

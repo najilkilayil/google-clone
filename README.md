@@ -35,6 +35,15 @@ google-clone/
 
 ----
 
+## ☘️ Future Plans
+- Working buttons
+- Get the real country name using location permission
+- Real search bar
+- Dark/Light theme
+- Account details menu
+- Settings menu bar
+
+----
 ## 👨‍💻 Author 
 Make with ❤️ *Najil Kilayil*
 
